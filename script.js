@@ -9,7 +9,7 @@ function makeBubble() {
   document.querySelector("#pbottom").innerHTML = clutter;
 }
 
-let score = 60;
+let score = 0;
 let timer = 60;
 function runTimer() {
   let timerinterval = setInterval(() => {
